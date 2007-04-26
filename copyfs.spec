@@ -7,15 +7,16 @@ Release:	%release
 Name:		%name
 Summary:	A copy-on-write, versionned filesystem
 License:	GPL
+URL:		http://n0x.org/copyfs/
 Group:		Archiving/Backup
 BuildRoot:	%{_tmppath}/%{name}-root
-BuildRequires:	%{mklibname fuse -d}, %{mklibname attr -d}
+BuildRequires:	%{mklibname fuse -d}, libattr-devel
 Requires:	fuse, attr
 Source:		http://n0x.org/copyfs/%{name}-%{version}.tar.bz2
 
 %description
 CopyFS is a copy-on-write, versionned file system. This file system is
-usefull for example when you have a directory containing important
+useful for example when you have a directory containing important
 files, for which you want to track changes, and be able to revert to an
 older version. CopyFS lets you do that by transparently making backups
 of each file that you modify. You are then able to see what version are
