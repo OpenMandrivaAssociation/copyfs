@@ -27,6 +27,7 @@ available for a file, and get an older version.
 
 %build
 %configure
+%make
 
 %install
 %{__rm} -Rf %{buildroot}
