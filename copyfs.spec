@@ -41,8 +41,8 @@ available for a file, and get an older version.
 %{_bindir}/copyfs-daemon
 %{_bindir}/copyfs-fversion
 %{_bindir}/copyfs-mount
-%{_mandir}/man1/copyfs-daemon.1.bz2
-%{_mandir}/man1/copyfs-fversion.1.bz2
-%{_mandir}/man1/copyfs-mount.1.bz2
-%{_mandir}/man1/copyfs.1.bz2
+%{_mandir}/man1/copyfs-daemon.*
+%{_mandir}/man1/copyfs-fversion.*
+%{_mandir}/man1/copyfs-mount.*
+%{_mandir}/man1/copyfs.*
 %doc README TODO COPYING
