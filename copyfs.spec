@@ -9,7 +9,6 @@ Summary:	A copy-on-write, versionned filesystem
 License:	GPL
 URL:		http://n0x.org/copyfs/
 Group:		Archiving/Backup
-BuildRoot:	%{_tmppath}/%{name}-root
 BuildRequires:	%{mklibname fuse -d}, libattr-devel
 Requires:	fuse, attr
 Source:		http://n0x.org/copyfs/%{name}-%{version}.tar.bz2
