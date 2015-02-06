@@ -1,6 +1,6 @@
 %define name copyfs
 %define version 1.0.1
-%define release %mkrel 5
+%define release 6
 
 Version:	%version
 Release:	%release
