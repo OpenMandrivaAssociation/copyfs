@@ -10,6 +10,11 @@ License:	GPL
 URL:		https://n0x.org/copyfs/
 Group:		Archiving/Backup
 BuildRoot:	%{_tmppath}/%{name}-root
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	%{mklibname fuse -d}, libattr-devel
 Requires:	fuse, attr
 Source:		http://n0x.org/copyfs/%{name}-%{version}.tar.bz2
